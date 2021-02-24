@@ -7,7 +7,7 @@ const Home = ({ article, showImage }) => {
   const {author, company, image_url, content} = article
 
   const Image = showImage ? (<img className="w-24 h-24 rounded-full mx-auto md:flex md:self-center"
-    src={image_url} alt="A beautiful cat" width="200" height="200" />) : ''
+    src={image_url} alt="A beautiful image" width="200" height="200" />) : ''
 
   return (
     <div className="w-96 mx-auto">
